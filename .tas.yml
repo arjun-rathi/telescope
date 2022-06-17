@@ -1,8 +1,8 @@
 ---
 framework: jest
 preRun:
-     command:
-        - npm ci
+  command:
+    - npm ci
 preMerge:
   pattern:
     - "./src/core/utils/markdown.test.js"
@@ -10,6 +10,6 @@ postMerge:
   pattern: 
     - "./src/core/utils/markdown.test.js"
 postRun:
-     command:
-        - node --version
+  command:
+    - node --version
 version: 1.0
